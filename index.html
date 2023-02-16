@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Cripto Search</h1>
+    </header>
+    <form class="cryptoForm" id="form">
+      <div>
+        <select id="coin-select">
+          <option disabled selected>Selecciona una moneda...</option>
+          <option>USD</option>
+          <option>EUR</option>
+          <option>MXN</option>
+        </select>
+        <input type="submit" value="Buscar" class="cryptoForm--button"/>
+      </div>
+
+    </form>
+      <div class="container">
+        <div>
+          <img src="/img/btc.png" class="cryptoImage" alt="Bitcoin Image">
+        </div>
+        <div class="cryptoInfo">
+          <div
+          <div>
+            <h2>BTC</h2>
+          </div>
+          <div>
+            <span>Bitcoin</span>
+          </div>
+          </div>
+          <div class="cryptoPrice">
+            <div id="cripto-convert">
+              <span>$---</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="api.js"></script> 
+    <!--    <header>
+      <h1>Cripto API</h1>
+    </header>
+    <div class="container">
+      <form class="grid" id="form">
+        <div>
+          <input type="submit"value="Cotizar"/>
+        </div>
+      </form>
+      <div class="data">
+        <h2>Informacion</h2>
+        <h3>
+          <span class="cripto">
+            <div id="cripto-convert"></div>
+          </span>
+        </h3>
+      </div>
+    </div>
+    <script src="api.js"></script>  -->
+  </body>
+</html>
